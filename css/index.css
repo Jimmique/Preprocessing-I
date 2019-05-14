@@ -199,9 +199,11 @@ header {
 
 /* profile box */
 .profile-box {
+  float: left;
   background: #E9ECEF;
-  width: 313px;
+  width: 278px;
   height: 933px;
+  margin-left: 35px;
 }
 /* List styles */
 ul {
@@ -220,3 +222,11 @@ th, td {
 }
 
 tr:nth-child(even) {background-color: #E9ECEF;}
+
+footer {
+  position: absolute;
+  background: #81D8D0;
+  width: 800px;
+  height: 60px;
+  text-align: center;
+}
