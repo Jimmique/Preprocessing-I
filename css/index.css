@@ -134,7 +134,7 @@ html,
 body {
   height: 100%;
 }
-
+/* fonts and weight */
 h1 {
   font-family: 'Anton', sans-serif;
 }
@@ -149,6 +149,59 @@ nav a {
 
 .profile-box-text h2 {
   font-family: 'Anton', sans-serif;
+}
+
+.profile-box-text p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+} 
+
+.profile-box-text li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+} 
+
+.main-content-text h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.main-content-text li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+} 
+
+.main-content-text th {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+} 
+
+.main-content-text td {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+} 
+
+.main-content-text p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+} 
+
+.copyright {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/* header styles */
+header {
+  background: #81D8D0;
+  width: 800px;
+  height: 197px;
+}
+
+/* profile box */
+.profile-box {
+  background: #E9ECEF;
+  width: 313px;
+  height: 933px;
 }
 /* List styles */
 ul {
@@ -166,4 +219,4 @@ th, td {
   padding: 8px;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {background-color: #E9ECEF;}
