@@ -134,3 +134,36 @@ html,
 body {
   height: 100%;
 }
+
+h1 {
+  font-family: 'Anton', sans-serif;
+}
+
+header p {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav a {
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile-box-text h2 {
+  font-family: 'Anton', sans-serif;
+}
+/* List styles */
+ul {
+  list-style-type: none;
+  }
+
+/* Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
