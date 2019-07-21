@@ -57,3 +57,66 @@ html, body {
     height: 100%;
 }
 
+// Variables
+@main-color: #81D8D0;
+@secondary-color: #E9ECEF;
+@font-color: black;
+@hover-color: coral;
+@header-font: 'Anton', sans-serif;
+@body-font: 'Roboto', sans-serif;
+@light-weight: 300;
+@medium-weight: 600;
+@bold-weight: 800;
+
+// Mixins
+.profile-header {
+	font-family: @header-font;
+	font-variant-caps: all-small-caps;
+	font-size: 2.563rem;
+	line-height: 2.2;
+}
+// Nesting
+html{
+	font-size: 62.5;
+}
+header {
+	div {
+		h1 {
+			font-family: @header-font;
+			font-size: 4.188rem;
+			font-variant-caps: all-small-caps;
+			margin-bottom: 2px;
+		}
+		p { 
+			font-family: @body-font;  
+			margin-bottom: 8px;
+			font-variant-caps: all-small-caps;
+			font-size: 1.313rem;
+		}
+			nav {
+				word-spacing: 16px;
+				a {
+					font-family: @body-font;
+					font-variant-caps: all-small-caps;
+					text-decoration: none;
+					color: @font-color;
+					font-size: 1.5rem;
+					font-weight: @bold-weight;
+					transition: 0.3s;
+				}
+			}
+	
+	}	
+}
+.profile-box {
+	.profile-img {
+		margin-top: 19px;
+		height: 241px;
+		width: 241px;  
+	}
+	div {
+		h2 {
+			.profile-header;
+		}
+	}
+}
